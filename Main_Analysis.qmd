@@ -1,0 +1,13 @@
+---
+title: "Main_Analysis"
+author: "zachary"
+format: html
+editor: visual
+---
+
+
+```{R}
+#stroop_data<-read.delim("https://raw.githubusercontent.com/Lakens/Stroop/master/stroop.txt", header = TRUE)  #Download the data, unnecessary to install it everytime.
+#write.table(stroop_data,file="stroop.csv",quote=FALSE,row.names=FALSE,sep=",") 
+stroop_data <- read.csv('stroop.csv', header = TRUE)
+```
